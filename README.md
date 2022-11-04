@@ -19,14 +19,12 @@ Each bucket internally uses LinkedList and each LinkedList uses Node to save the
 
 Node looks like, [key,value,hash,next]. Now, for map.put() there is hash value being calculated and the index is evaluated.
 
-                                                ```
                                                  put(K k, V v)
                                                 {
                                                    hash = hash(k);
 
                                                    index = hash & (n-1);
                                                 } 
-                                                ```
 
 Example - Saved it as -> index = 6, Node = [e1,"Developer",1011,null], null because there is no next node and it is the first node.
 
