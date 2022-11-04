@@ -6,4 +6,9 @@
 
 # How HashMap internally works?
 
+- [x] Map<Employee,String> map = new HashMap<>(); // Creating a key-value pair
+- [x]  
+
+
+
 
