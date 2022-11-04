@@ -37,6 +37,8 @@ Now, for index = 6. It will check if(e1.equals(e2)) ->
                                                       
 Now, index=6 and Node = [e1,"Developer",1011,null] -> [e2,"QEA",7976,null].
 
+## Note: if map.put(null,"UI"), for null it will always refer to 0th index in the BucketList. 
+
 This is how HashMap internally works.
 
 Additionally, In Java 8 after a certain threshold there is no longer LinkedList is used, it uses Balanced Tree mechanism. Lets say, when we have 5 nodes at index=6 then LinkedList is no longer efficient to manage so it uses Balanced Tree.
