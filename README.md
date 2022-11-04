@@ -35,7 +35,7 @@ Now, for index = 6. It will check if(e1.equals(e2)) ->
                                                     -> 
                                                        False e2 will be added as the next node.
                                                       
-Now, index=6 and Node = [e1,"Developer",1011,next] -> [e2,"QEA",7976,null].
+Now, index=6 and Node = [e1,"Developer",1011,null] -> [e2,"QEA",7976,null].
 
 This is how HashMap internally works.
 
