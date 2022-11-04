@@ -17,9 +17,22 @@ Now, when map.put(e1,"Developer"). HashMap internally creates a bucket list of i
 
 Each bucket internally uses LinkedList and each LinkedList uses Node to save the data.
 
-Node looks like, [key,value,hash,next]
+Node looks like, [key,value,hash,next]. Now, for map.put() there is hash value being calculated and the index is evaluated.
 
+                                                      ``` put(K k, V v)
+                                                      {
+                                                         
+                                                      }
+                                                      ```
 
+Example - Saved it as -> index = 6, Node = [e1,"Developer",1011,null], null because there is no next node and it is the first node.
+
+If again there is same index = 6  is evaluated for map.put(e2,"QEA"). This concept is called Hashing collision.
+
+Now, for index = 6. It will check if(e1.equals(e2)) -> 
+                                                       True e1 will be replaced by e2.
+                                                    -> 
+                                                       False e2 will be added as 
 
 
 
